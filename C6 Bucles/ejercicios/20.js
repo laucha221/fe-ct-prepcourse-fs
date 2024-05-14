@@ -3,6 +3,15 @@ function sumarHastaNConBreak(n) {
    // Devuelve la suma de todos los números desde 1 hasta n.
    // Si la suma supera a 100, detén el bucle usando break.
    // Tu código:
+   var suma = 0;
+   const limite = 100;
+   for(var i = 1; i <= n; i++){
+      suma += i;
+      if(suma > limite){
+         break;
+      }
+   }
+   return suma;
 }
 
 module.exports = sumarHastaNConBreak;
