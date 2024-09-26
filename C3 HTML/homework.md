@@ -36,15 +36,63 @@ Una vez tengas creado tu archivo, sea manualmente o utilizando atajos, escribe l
 
 ```html
 <!DOCTYPE html>
-<html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
-   </head>
-   <body>
-      <!-- Contenido de la página va aquí-->
-   </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pagina para practicar</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Titulo Principal</h1>
+      <span>home</span>
+      <span>noticia</span>
+      <span>clima</span>
+    </header>
+
+    <main>
+      <img src="./fe-ct-prepcourse-fs/descarga.jpeg" alt="" />
+      <article>
+        <h2>Este es el titulo de una seccion de noticias</h2>
+        <h3>Esta es la notica nº1</h3>
+        <div>
+          <p>Esta es la noticia</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+            distinctio eos aliquid eveniet porronullaametunde, blanditiis optio
+            dicta quis culpa commodi ad iste ducimus assumenda consectetur quod
+            rem.
+          </p>
+        </div>
+      </article>
+      <hr />
+      <article>
+        <h3>Esta es la noticia nº2</h3>
+        <p>Este es un listado de cosas importantes para esta noticia</p>
+        <ol>
+          <li>Este es el item</li>
+          <li>Este es el item</li>
+          <li>Este es el item</li>
+        </ol>
+      </article>
+      <hr />
+      <article>
+        <h3>Esta es la noticia nº3</h3>
+        <p>Este listado de cosas importantes no estara ordenada</p>
+        <ul>
+          <li>Este es un elemento</li>
+          <li>Este es un elemento adicional</li>
+          <li>Este es otro elemento adicional</li>
+        </ul>
+      </article>
+    </main>
+
+    <footer>
+      <p>Este es el footer de mi pagina. Procedo a agregar enlaces</p>
+      <a href="index2.htm">Formulario de contacto</a>
+    </footer>
+  </body>
 </html>
 ```
 
@@ -56,16 +104,16 @@ Una vez tengas creado tu archivo, sea manualmente o utilizando atajos, escribe l
 
 Ahora que has creado tu archivo y su estructura básica, ya es hora de comenzar a agregar contenido. Aquí te pones manos a la obra por tu cuenta, pero vamos a dejarte unos TIPs para continuar:
 
--  Recuerda establecer la estructura de bloques (header, main, section, footer, etc.)
--  Recuerda tomar nota y tener siempre a mano cuáles son los atributos de cada etiqueta, por ejemplo, el atributo **“src”** de la etiqueta **img**.
--  Dado que aún no vamos a agregarle estilos a nuestra página, si quieres ayudarte para demarcar secciones puedes aprovechar la etiqueta `<hr />`
--  Intenta utilizar los elementos correspondientes en cada caso:
+- Recuerda establecer la estructura de bloques (header, main, section, footer, etc.)
+- Recuerda tomar nota y tener siempre a mano cuáles son los atributos de cada etiqueta, por ejemplo, el atributo **“src”** de la etiqueta **img**.
+- Dado que aún no vamos a agregarle estilos a nuestra página, si quieres ayudarte para demarcar secciones puedes aprovechar la etiqueta `<hr />`
+- Intenta utilizar los elementos correspondientes en cada caso:
 
-   -  `<p>` para los párrafos
-   -  `<div>` para agrupar elementos
-   -  `<ul>/<ol>` para hacer listas
+  - `<p>` para los párrafos
+  - `<div>` para agrupar elementos
+  - `<ul>/<ol>` para hacer listas
 
-   Utilizar los elementos correctos luego nos ayudará al momento de dar estilos.
+  Utilizar los elementos correctos luego nos ayudará al momento de dar estilos.
 
 ---
 
